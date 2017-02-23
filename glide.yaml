@@ -1,0 +1,7 @@
+package: github.com/qeek-dev/qeek-dev-api-go-client/myqnapcloudaccount/v1.1
+import:
+- package: google.golang.org/api
+  subpackages:
+  - gensupport
+  - googleapi
+- package: gopkg.in/check.v1
