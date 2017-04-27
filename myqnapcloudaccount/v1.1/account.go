@@ -10,9 +10,6 @@ import (
 	"strings"
 )
 
-const apiVersion = "v1.1"
-const basePath = "https://account.alpha-myqnapcloud.com"
-
 func New(client *http.Client) *Service {
 	if client == nil {
 		client = http.DefaultClient
